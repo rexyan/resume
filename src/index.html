@@ -158,6 +158,23 @@
           <span class="section-title-r"></span>
         </header>
         <div class="section-bd">
+
+          <div class="item">
+            <header class="item-hd">
+              <h3 class="item-name">数据自助查询系统</h3>
+              <span class="item-time"></span>
+              <a class="btn item-more" href="http://www.neusoft.edu.cn/">公司</a>
+            </header>
+            <div class="item-bd">
+              <ul class="section-content">
+                <li>描述：用户使用该系统可查询数仓云上，云下数据。并且该系统支持拖拉式异步查询，无需写 SQL 语句，大大的减小了公司销售人员，财务人员的数据查询需求。该系统还结合了严格的权限控制，可以针对数据查询结果进行下载，加解密等功能。</li>
+                <li>特点：使用简单，支持数据源权限管理，查询结果加解密，异步查询</li>
+                <li>职责：参与项目的开发和设计，解决并优化遇到问题</li>
+                <li>主要技术：Python, Redis, MySQL, Celery, Flask</li>
+              </ul>
+            </div>
+          </div>
+
           <div class="item">
             <header class="item-hd">
               <h3 class="item-name">DataAPI 系统</h3>
@@ -166,7 +183,7 @@
             </header>
             <div class="item-bd">
               <ul class="section-content">
-                <li>功能：提供数仓数据 T+1 查询接口</li>
+                <li>描述：该系统主要为公司各业务系统提供数据接口查询服务，原理为数仓数据通过 Kafka 推送至 HBase 中，通过后端程序使用 Phoenix 进行查询。该项目使用了 Python，Java，Vue 等技术。共服务内部部门 5 个以上，共创建数据查询接口 30 以上，每周查询量 500W 以上。</li>
                 <li>特点：动态创建数据查询接口,支持权限,版本等配置</li>
                 <li>职责：参与项目的开发和设计。负责与其他系统的对接</li>
                 <li>主要技术：SpringBoot, Redis, MySQL, HBase, Python, KafKa</li>
@@ -182,26 +199,10 @@
             </header>
             <div class="item-bd">
               <ul class="section-content">
-                <li>功能：查询并分析用户群体特征</li>
+                <li>描述：该系统功能为查询并分析用户群体特征。数据通过 Hbase 推送至 ElasticSearch 中，后端程序连接 ES 进行数据的查询和分析，并在前端页面中进行图表的展示。</li>
                 <li>特点：快速查询，分析用户详细信息，对接推送系统等</li>
                 <li>职责：参与项目的开发和设计，解决并优化遇到问题</li>
                 <li>主要技术：SpringBoot, Redis, MySQL, ES, KafKa</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="item">
-            <header class="item-hd">
-              <h3 class="item-name">数据自助查询系统</h3>
-              <span class="item-time"></span>
-              <a class="btn item-more" href="http://www.neusoft.edu.cn/">公司</a>
-            </header>
-            <div class="item-bd">
-              <ul class="section-content">
-                <li>功能：以拖拽的方式进行数据自助查询</li>
-                <li>特点：使用简单，支持数据源权限管理，查询结果加解密，异步查询</li>
-                <li>职责：参与项目的开发和设计，解决并优化遇到问题</li>
-                <li>主要技术：Python, Redis, MySQL, Celery, Flask</li>
               </ul>
             </div>
           </div>
@@ -214,8 +215,8 @@
             </header>
             <div class="item-bd">
               <ul class="section-content">
-                <li>功能：封装机器学习模型，提供 RESTful API 接口</li>
-                <li>职责：参与支付宝联合建模模型部署,提供特征服务,维护OCR服务等</li>
+                <li>描述：与模型算法工程师一起，封装机器学习模型，提供 RESTful API 接口。例如：参与支付宝联合建模模型部署,提供特征服务,维护OCR服务等</li>
+                <li>职责：封装模型，提供 RESTful API 接口</li>
                 <li>主要技术：Python, MySQL, Redis, Flask</li>
               </ul>
             </div>
